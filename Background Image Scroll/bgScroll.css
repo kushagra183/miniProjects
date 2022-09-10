@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+
+.bgImage{
+    width:100%;
+    height:100vh;
+    background: url("https://pro2-bar-s3-cdn-cf6.myportfolio.com/bb02877aa778bc578d92ca4159e6a593/a826c3b263c45f150cf459d0_rw_1920.jpg?h=141e15de9b929643e3cd09c8fc2bcb80");
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+}
+
+.container{
+    padding:100px;
+
+}
+h1{
+    text-align: center;
+
+}
+
+p{
+    color:grey;
+}
+@media (max-width: 500px){
+    .container{
+        padding:10px;
+    }
+}

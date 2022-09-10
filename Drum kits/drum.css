@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    display:flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+}
+.container{
+    text-align: center;
+}
+
+.btn{
+    font-size: 30px;
+    padding: 30px 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border:none;
+    margin: 10px;
+    width:200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    cursor: pointer;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn:hover{
+    color:white;
+}
+.btn:active{
+background-size: 105%;
+}
+
+#kick{
+    background-image: url("./kick.png");
+   
+}
+
+#snare{
+    background-image: url("./snare.png");
+}
+#crash{
+    background-image: url("./crash.png");
+}
+#tom{
+    background-image: url("./tom.png");
+}
