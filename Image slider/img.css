@@ -1,0 +1,45 @@
+body{
+margin:0;
+display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;
+background-color: rgb(242, 255, 0);
+}
+
+.container{
+    position: relative;
+    height: 300px;
+    width:500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}
+.image_container{
+display: flex;
+transition: transform 0.3s ease-in-out;
+}
+.btnl{
+    position: absolute;
+    top:50%;
+    left:10px;
+    font-size: 20px;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+    transform: translateY(-50%);
+    opacity: 0.5;
+}
+.btnr{
+    position: absolute;
+    top:50%;
+    right:10px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    transform: translateY(-50%);
+    opacity: 0.5;
+}
+.btn:hover{
+    opacity: 1;
+    cursor: pointer;
+}
